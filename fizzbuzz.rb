@@ -3,6 +3,7 @@ def fizzbuzz(num)
  "Fizz"
  elsif num % 5 == 0
 "Buzz"
-
+ elsif num % 15 == 0
+"FizzBuzz"
  end
-end
+end 
